@@ -1,0 +1,22 @@
+{
+  "name": "tpc-backend",
+  "version": "1.0.0",
+  "description": "Backend service for The Pushup Challenge",
+  "main": "app.js",
+  "scripts": {
+    "test": "test",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "pushup",
+    "challenge"
+  ],
+  "author": "Siddharth Agarwal",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "mongodb": "^4.7.0",
+    "nodemon": "^2.0.19"
+  }
+}
